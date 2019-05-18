@@ -1,6 +1,7 @@
 Sklep internetowy z częściami komputerowymi
-compparts.pl
 ===
+compparts.pl
+---
 
 ### W naszym sklepie znajdziesz wszystkie potrzebne Ci części do swojego PC:
 
