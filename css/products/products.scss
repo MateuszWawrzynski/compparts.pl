@@ -1,0 +1,36 @@
+﻿
+$color_1: #8c93ff;
+$color_2: #80a1e8;
+$color_3: #99d5ff;
+$color_4: #80d8e8;
+$color_5: #8cfff1;
+
+.products {
+	background-color: $color_1;
+	min-height: 350px;
+	padding: 30px 50px;
+
+	h5 {
+		margin-bottom: 25px;
+	}
+
+	.product-wrapper {
+		text-align: center;
+		border: 1px solid black;
+	}
+
+	.product-img {
+		width: 90%;
+		height: 50%;
+		border-bottom: 1px solid black;
+		margin-bottom: 15px;
+	}
+
+	.product-name {
+		font-size: 12px;
+	}
+
+	.product-price {
+		text-align: right;
+	}
+}

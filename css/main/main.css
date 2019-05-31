@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #80d8e8;
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  color: #222222;
+}
+
+a:hover {
+  color: #333333;
+}
+
+.wrapper-main {
+  display: flex;
+  width: 100%;
+  align-items: stretch;
+}
+
+.sidebar {
+  width: 250px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: 0.5s;
+  border-right: 1px solid black;
+}
+
+.content {
+  margin-left: 250px;
+  transition: 0.5s;
+}
