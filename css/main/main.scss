@@ -1,6 +1,6 @@
 ﻿
 $color_link: #222222;
-$color_link_hover: #333333;
+$color_link_hover: #ffffff;
 
 $color_1: #8c93ff;
 $color_2: #80a1e8;
@@ -25,9 +25,10 @@ body {
 
 a {
 	color: $color_link;
-}
-a:hover {
-	color: $color_link_hover;
+
+	&:hover {
+		color: $color_link_hover;
+	}
 }
 
 .wrapper-main {
@@ -38,6 +39,7 @@ a:hover {
 
 .sidebar {
 	width: $sidebar_width;
+	height: 100vh;
 	position: fixed;
 	top: 0;
 	left: 0;
