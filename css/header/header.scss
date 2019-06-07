@@ -1,0 +1,75 @@
+﻿
+$color_1: #8c93ff;
+$color_2: #80a1e8;
+$color_3: #99d5ff;
+$color_4: #80d8e8;
+$color_5: #8cfff1;
+
+$color_link: #222222;
+
+
+.header {
+	height: 100px;
+	padding-top: 30px;
+	background-color: $color_1;
+	
+	input {
+		height: 30px;
+		width: 22vw;
+		font-size: 12px;
+	}
+
+	button {
+		height: 30px;
+		width: 30px;
+		font-size: 17px;
+	}
+
+	.fa-shopping-cart, 
+	.fa-sign-in-alt, 
+	.fa-user-plus {
+		font-size: 30px;
+		margin-right: 1vw;
+		cursor: pointer;
+	}
+	.fa-shopping-cart {
+		margin-right: 3vw;
+	}
+}
+
+
+@media screen and (max-width: 768px) {
+	.header {	
+		.fa-shopping-cart, 
+		.fa-sign-in-alt, 
+		.fa-user-plus {
+			font-size: 24px;
+		}
+
+		input {
+			width: 40vw;
+		}
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.header {	
+		.fa-shopping-cart, 
+		.fa-sign-in-alt, 
+		.fa-user-plus {
+			font-size: 16px;
+		}
+
+		input {
+			width: 37vw;
+			height: 25px;
+			font-size: 10px;
+		}
+
+		button {
+			height: 25px;
+			width: 25px;
+			font-size: 14px;
+		}
+	}
+}
