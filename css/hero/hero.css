@@ -1,6 +1,14 @@
 .hero {
   height: 350px;
   text-align: center;
+  background-image: url("../../img/hero_image.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  -webkit-box-shadow: inset 10px 10px 300px 15px black;
+  -moz-box-shadow: inset 10px 10px 300px 15px black;
+  box-shadow: inset 10px 10px 300px 15px black;
 }
 
 .hero h2 {

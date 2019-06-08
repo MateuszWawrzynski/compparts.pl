@@ -1,16 +1,15 @@
 ﻿
-$color_link: #222222;
-$color_link_hover: #333333;
+$color_main: #2b2f42;
+$color_second: #3d425e;
+$color_hover: #555e8b;
 
-$color_1: #8c93ff;
-$color_2: #80a1e8;
-$color_3: #99d5ff;
-$color_4: #80d8e8;
-$color_5: #8cfff1;
+$color_link: #ffffff;
+$color_link_hover: #cacaca;
 
 $font_montserrat: 'Montserrat', sans-serif;
 
 $sidebar_width: 250px;
+
 
 * {
 	margin: 0;
@@ -19,15 +18,16 @@ $sidebar_width: 250px;
 }
 
 body {
-	background-color: $color_4;
+	background-color: $color_main;
 	font-family: $font_montserrat;
 }
 
 a {
 	color: $color_link;
-}
-a:hover {
-	color: $color_link_hover;
+
+	&:hover {
+		color: $color_link_hover;
+	}
 }
 
 .wrapper-main {
@@ -38,19 +38,17 @@ a:hover {
 
 .sidebar {
 	width: $sidebar_width;
+	height: 100vh;
 	position: fixed;
 	top: 0;
 	left: 0;
 	transition: 0.5s;
-	border-right: 1px solid black;
+	border-right: 1px solid #000000;
+	background-color: $color_main;
+	z-index: 100;
 }
 
 .content {
 	margin-left: $sidebar_width;
 	transition: 0.5s;
 }
-
-
-
-
-

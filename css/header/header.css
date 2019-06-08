@@ -1,7 +1,7 @@
 .header {
   height: 100px;
   padding-top: 30px;
-  background-color: #8c93ff;
+  background-color: #2b2f42;
 }
 
 .header input {
@@ -13,19 +13,28 @@
 .header button {
   height: 30px;
   width: 30px;
-  font-size: 17px;
+  font-size: 16px;
+  padding: 3px 0;
 }
 
+.header .menu-button-open,
 .header .fa-shopping-cart,
 .header .fa-sign-in-alt,
 .header .fa-user-plus {
   font-size: 30px;
   margin-right: 1vw;
   cursor: pointer;
+  color: #ffffff;
 }
 
 .header .fa-shopping-cart {
   margin-right: 3vw;
+}
+
+.header .fa-shopping-cart:hover,
+.header .fa-sign-in-alt:hover,
+.header .fa-user-plus:hover {
+  color: #cacaca;
 }
 
 @media screen and (max-width: 768px) {

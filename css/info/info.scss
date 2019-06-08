@@ -1,10 +1,17 @@
 ﻿
-$color_1: #8c93ff;
-$color_2: #80a1e8;
-$color_3: #99d5ff;
-$color_4: #80d8e8;
-$color_5: #8cfff1;
+$color_main: #2b2f42;
+$color_second: #3d425e;
+$color_hover: #555e8b;
+
+$color_link: #ffffff;
+$color_link_hover: #cacaca;
+
+$font_montserrat: 'Montserrat', sans-serif;
+
+$sidebar_width: 250px;
+
 
 .info {
 	height: 300px;
+	color: $color_link;
 }
