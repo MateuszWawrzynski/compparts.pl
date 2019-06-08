@@ -1,4 +1,9 @@
 
+/*
+    Managing sidebar collapse buttons.
+*/
+
+
 $(".menu-button-open").on('click', () => {
     $('.sidebar')
     .css('margin-left', '0')
@@ -8,12 +13,7 @@ $(".menu-button-open").on('click', () => {
 });
 
 $(".menu-button-close").on('click', () => {
-    $('.sidebar')
-    .css('margin-left', '-250px')
-    .css('width', '250px');
+    $('.sidebar').removeAttr('style');
 
     $('.menu-button-close').css('display', 'none');
 });
-
-//  zamienic to na dodanie/usuwanie klasy
-//  zamiast recznego dodawania css

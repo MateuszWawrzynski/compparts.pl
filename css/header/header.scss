@@ -1,19 +1,20 @@
 ﻿
-$bgcolor_header: #2b2f42;
+$color_main: #2b2f42;
+$color_second: #3d425e;
+$color_hover: #555e8b;
 
-$color_1: #8c93ff;
-$color_2: #80a1e8;
-$color_3: #99d5ff;
-$color_4: #80d8e8;
-$color_5: #8cfff1;
+$color_link: #ffffff;
+$color_link_hover: #cacaca;
 
-$color_link: #222222;
+$font_montserrat: 'Montserrat', sans-serif;
+
+$sidebar_width: 250px;
 
 
 .header {
 	height: 100px;
 	padding-top: 30px;
-	background-color: $bgcolor_header;
+	background-color: $color_main;
 	
 	input {
 		height: 30px;
@@ -24,7 +25,8 @@ $color_link: #222222;
 	button {
 		height: 30px;
 		width: 30px;
-		font-size: 17px;
+		font-size: 16px;
+		padding: 3px 0;
 	}
 
 	.menu-button-open,
@@ -34,10 +36,16 @@ $color_link: #222222;
 		font-size: 30px;
 		margin-right: 1vw;
 		cursor: pointer;
-		color: #d4d4d4;
+		color: $color_link;
 	}
 	.fa-shopping-cart {
 		margin-right: 3vw;
+	}
+
+	.fa-shopping-cart:hover, 
+	.fa-sign-in-alt:hover, 
+	.fa-user-plus:hover {
+		color: $color_link_hover;
 	}
 }
 

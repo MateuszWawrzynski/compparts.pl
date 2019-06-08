@@ -1,7 +1,8 @@
 .products {
-  background-color: #8c93ff;
+  background-color: #2b2f42;
   min-height: 350px;
   padding: 30px 50px;
+  color: #ffffff;
 }
 
 .products h5 {
@@ -10,13 +11,15 @@
 
 .products .product-wrapper {
   text-align: center;
-  border: 1px solid black;
+  border: 1px solid #ffffff;
+  padding: 0;
+  margin-bottom: 5px;
 }
 
 .products .product-img {
-  width: 90%;
-  height: 50%;
-  border-bottom: 1px solid black;
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #000000;
   margin-bottom: 15px;
 }
 
@@ -26,5 +29,14 @@
 
 .products .product-price {
   text-align: right;
+  margin: 2% 8% 2% 0;
 }
-/*# sourceMappingURL=products.css.map */
+
+.products .product-price .old-price {
+  color: #ff0000;
+  text-decoration: line-through;
+}
+
+.products .product-price .new-price {
+  font-weight: bold;
+}
