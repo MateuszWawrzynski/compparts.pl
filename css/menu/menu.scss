@@ -1,4 +1,7 @@
 ﻿
+$bgcolor_header: #2b2f42;
+$bgcolor_header_hover: #555e8b;
+
 $color_link: #222222;
 
 $color_1: #8c93ff;
@@ -20,7 +23,8 @@ $sidebar_width: 250px;
 	line-height: calc((100vh - 200px) / 7);
 	font-size: 1.1em;
 	padding-left: 10%;
-	background-color: $color_2;
+	background-color: $bgcolor_header;
+	color: white;
 
 	&::before {
 		content: '>';
@@ -30,22 +34,21 @@ $sidebar_width: 250px;
 	}
 
 	&:hover {
-		background-color: $color_3;
+		background-color: $bgcolor_header_hover;
 	}
 }
 
-.menu-button-open {
-	font-size: 24px;
-	cursor: pointer;
-}
+
 
 .menu-button-close {
 	display: none;
-	font-size: 24px;
-	cursor: pointer;
 	position: absolute;
 	top: 40px;
 	right: 20px;
+	font-size: 30px;
+	margin-right: 1vw;
+	cursor: pointer;
+	color: #d4d4d4;
 }
 
 .wrapper-socials {
@@ -56,9 +59,13 @@ $sidebar_width: 250px;
 	width: ($sidebar_width / 3) - 4px;
 	display: inline-block;
 	font-size: 50px;
+	
+	a {
+		color: white;
 
-	a:hover {
-		color: $color_link;
+		&:hover {
+			color: white;
+		}
 	}
 
 	.fa-facebook-square:hover {

@@ -1,4 +1,6 @@
 ﻿
+$bgcolor_header: #2b2f42;
+
 $color_1: #8c93ff;
 $color_2: #80a1e8;
 $color_3: #99d5ff;
@@ -11,7 +13,7 @@ $color_link: #222222;
 .header {
 	height: 100px;
 	padding-top: 30px;
-	background-color: #2b2f42;
+	background-color: $bgcolor_header;
 	
 	input {
 		height: 30px;
@@ -25,6 +27,7 @@ $color_link: #222222;
 		font-size: 17px;
 	}
 
+	.menu-button-open,
 	.fa-shopping-cart, 
 	.fa-sign-in-alt, 
 	.fa-user-plus {

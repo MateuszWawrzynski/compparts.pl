@@ -1,4 +1,6 @@
 ﻿
+$bgcolor_header: #2b2f42;
+
 $color_link: #222222;
 $color_link_hover: #ffffff;
 
@@ -45,7 +47,7 @@ a {
 	left: 0;
 	transition: 0.5s;
 	border-right: 1px solid black;
-	background-color: $color_4;
+	background-color: $bgcolor_header;
 	z-index: 100;
 }
 
