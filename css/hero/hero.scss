@@ -1,0 +1,35 @@
+﻿
+$color_main: #2b2f42;
+$color_second: #3d425e;
+$color_hover: #555e8b;
+
+$color_link: #ffffff;
+$color_link_hover: #cacaca;
+
+$font_montserrat: 'Montserrat', sans-serif;
+
+$sidebar_width: 250px;
+
+
+.hero {
+	height: 350px;
+	text-align: center;
+
+	// https://dribbble.com/shots/2548208-HandShake
+	background-image: url('../../img/hero_image.gif');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	
+	color: $color_link;
+
+	// https://www.cssmatic.com/box-shadow
+	-webkit-box-shadow: inset 10px 10px 300px 15px rgba(0,0,0,1);
+	-moz-box-shadow: inset 10px 10px 300px 15px rgba(0,0,0,1);
+	box-shadow: inset 10px 10px 300px 15px rgba(0,0,0,1);
+
+	h2 {
+		margin-top: 100px;
+		font-weight: bold;
+	}
+}

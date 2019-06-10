@@ -1,0 +1,54 @@
+﻿
+$color_main: #2b2f42;
+$color_second: #3d425e;
+$color_hover: #555e8b;
+
+$color_link: #ffffff;
+$color_link_hover: #cacaca;
+
+$font_montserrat: 'Montserrat', sans-serif;
+
+$sidebar_width: 250px;
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: $color_main;
+	font-family: $font_montserrat;
+}
+
+a {
+	color: $color_link;
+
+	&:hover {
+		color: $color_link_hover;
+	}
+}
+
+.wrapper-main {
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.sidebar {
+	width: $sidebar_width;
+	height: 100vh;
+	position: fixed;
+	top: 0;
+	left: 0;
+	transition: 0.5s;
+	background-color: $color_main;
+	z-index: 100;
+}
+
+.content {
+	margin-left: $sidebar_width;
+	border-left: 1px solid #000000;
+	transition: 0.5s;
+}

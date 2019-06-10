@@ -1,0 +1,20 @@
+﻿
+$color_main: #2b2f42;
+$color_second: #3d425e;
+$color_hover: #555e8b;
+
+$color_link: #ffffff;
+$color_link_hover: #cacaca;
+
+$font_montserrat: 'Montserrat', sans-serif;
+
+$sidebar_width: 250px;
+
+
+.footer {
+	height: 50px;
+	line-height: 50px;
+	color: $color_link;
+	background-color: $color_second;
+	text-align: center;
+}

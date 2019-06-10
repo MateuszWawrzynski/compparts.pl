@@ -1,0 +1,64 @@
+﻿
+$color_main: #2b2f42;
+$color_second: #3d425e;
+$color_hover: #555e8b;
+
+$color_link: #ffffff;
+$color_link_hover: #cacaca;
+
+$font_montserrat: 'Montserrat', sans-serif;
+
+$sidebar_width: 250px;
+
+
+.about {
+	padding: 30px 50px 100px 50px;
+	background-color: $color_second;
+	color: $color_link;
+
+	h5 {
+		margin-bottom: 50px;
+	}
+
+	div {
+		text-align: center;
+	}
+
+	img {
+		width: 250px;
+		height: 200px;
+		border-radius: 180px;
+		cursor: pointer;
+		transition-duration: 0.5s;
+
+		&:hover {
+			-webkit-box-shadow: 10px 10px 110px 10px rgba(0, 0, 0, 0.65);
+			-moz-box-shadow: 10px 10px 110px 10px rgba(0, 0, 0, 0.65);
+			box-shadow: 10px 10px 110px 10px rgba(0, 0, 0, 0.65);
+		}
+	}
+
+	.about-img {
+		margin-bottom: 30px;
+	}
+	.about-text {
+		padding: 0 15px;
+
+		i {
+			margin-right: 30px;
+			font-size: 20px;
+		}
+	}
+	.about-contact {
+		text-align: left;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.about {
+		.about-text {
+			text-align: left;
+			padding-left: 80px;
+		}
+	}
+}

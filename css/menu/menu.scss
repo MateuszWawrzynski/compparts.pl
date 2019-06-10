@@ -1,0 +1,114 @@
+﻿
+$color_main: #2b2f42;
+$color_second: #3d425e;
+$color_hover: #555e8b;
+
+$color_link: #ffffff;
+$color_link_hover: #cacaca;
+
+$font_montserrat: 'Montserrat', sans-serif;
+
+$sidebar_width: 250px;
+
+
+.wrapper-logo {
+	// https://cssgradient.io/
+	background: linear-gradient(90deg, $color_second $sidebar_width, $color_main 100%);
+	
+	.logo {
+		width: $sidebar_width;
+		cursor: pointer;
+	}
+}
+
+.wrapper-menu {
+	margin: 0;
+}
+
+.menu-item {
+	width: 100%;
+	height: calc((100vh - 200px) / 7);
+	line-height: calc((100vh - 200px) / 7);
+	font-size: 1.1em;
+	padding-left: 9%;
+	background-color: $color_main;
+	color: $color_link;
+	transition-duration: 0.2s;
+	border-bottom: 1px solid $color_link_hover;
+
+	&:hover {
+		background-color: $color_hover;
+	}
+
+	img {
+		height: 30%;
+		margin-right: 2%;
+		filter: invert(100%);
+	}
+}
+
+.menu-button-close {
+	display: none;
+	position: absolute;
+	top: 40px;
+	right: 20px;
+	font-size: 30px;
+	margin-right: 1vw;
+	cursor: pointer;
+	color: $color_link;
+}
+
+.wrapper-socials {
+	text-align: center;
+	background-color: $color_second;
+	height: 100px;
+	line-height: 100px;
+	cursor: pointer;
+}
+
+.social-item {
+	width: ($sidebar_width / 3) - 4px;
+	display: inline-block;
+	font-size: 50px;
+	transition-duration: 0.2s;
+	
+	&:hover {
+		background-color: #ffffff;
+
+		.fa-facebook-square {
+			color: #3C5A99;
+		}
+	
+		.fa-twitter-square {
+			color: #00acee;
+		}
+	
+		.fa-instagram {
+			color: #fb3958;	
+		}
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.sidebar {
+		margin-left: 0px;
+	}
+
+	.menu-button-open {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.sidebar {
+		margin-left: -$sidebar_width;
+	}
+
+	.content {
+		margin-left: 0;
+	}
+
+	.menu-button-open {
+		display: block;
+	}
+}

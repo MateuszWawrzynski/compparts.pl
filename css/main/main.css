@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #2b2f42;
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  color: #ffffff;
+}
+
+a:hover {
+  color: #cacaca;
+}
+
+.wrapper-main {
+  display: flex;
+  width: 100%;
+  align-items: stretch;
+}
+
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: 0.5s;
+  background-color: #2b2f42;
+  z-index: 100;
+}
+
+.content {
+  margin-left: 250px;
+  border-left: 1px solid #000000;
+  transition: 0.5s;
+}

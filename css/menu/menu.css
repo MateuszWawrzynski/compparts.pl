@@ -1,0 +1,97 @@
+.wrapper-logo {
+  background: linear-gradient(90deg, #3d425e 250px, #2b2f42 100%);
+}
+
+.wrapper-logo .logo {
+  width: 250px;
+  cursor: pointer;
+}
+
+.wrapper-menu {
+  margin: 0;
+}
+
+.menu-item {
+  width: 100%;
+  height: calc((100vh - 200px) / 7);
+  line-height: calc((100vh - 200px) / 7);
+  font-size: 1.1em;
+  padding-left: 9%;
+  background-color: #2b2f42;
+  color: #ffffff;
+  transition-duration: 0.2s;
+  border-bottom: 1px solid #cacaca;
+}
+
+.menu-item:hover {
+  background-color: #555e8b;
+}
+
+.menu-item img {
+  height: 30%;
+  margin-right: 2%;
+  filter: invert(100%);
+}
+
+.menu-button-close {
+  display: none;
+  position: absolute;
+  top: 40px;
+  right: 20px;
+  font-size: 30px;
+  margin-right: 1vw;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.wrapper-socials {
+  text-align: center;
+  background-color: #3d425e;
+  height: 100px;
+  line-height: 100px;
+  cursor: pointer;
+}
+
+.social-item {
+  width: 79.33333px;
+  display: inline-block;
+  font-size: 50px;
+  transition-duration: 0.2s;
+}
+
+.social-item:hover {
+  background-color: #ffffff;
+}
+
+.social-item:hover .fa-facebook-square {
+  color: #3C5A99;
+}
+
+.social-item:hover .fa-twitter-square {
+  color: #00acee;
+}
+
+.social-item:hover .fa-instagram {
+  color: #fb3958;
+}
+
+@media screen and (min-width: 768px) {
+  .sidebar {
+    margin-left: 0px;
+  }
+  .menu-button-open {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .sidebar {
+    margin-left: -250px;
+  }
+  .content {
+    margin-left: 0;
+  }
+  .menu-button-open {
+    display: block;
+  }
+}

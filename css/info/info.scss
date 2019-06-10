@@ -1,0 +1,48 @@
+﻿
+$color_main: #2b2f42;
+$color_second: #3d425e;
+$color_hover: #555e8b;
+
+$color_link: #ffffff;
+$color_link_hover: #cacaca;
+
+$font_montserrat: 'Montserrat', sans-serif;
+
+$sidebar_width: 250px;
+
+
+.info {
+	padding: 30px 16px;
+	color: $color_link;
+	background-color: $color_main;
+
+	div {
+		text-align: center;
+		margin-bottom: 30px;
+		padding-bottom: 25px;
+		border-bottom: 1px solid $color_link;
+
+		h5 {
+			margin-bottom: 35px;
+			font-weight: bold;
+		}
+
+		p {
+			line-height: 10px;
+			font-size: 14px;
+		}
+	}
+}
+
+@media screen and (min-width: 992px) {
+	.info {
+		div {
+			border-bottom: none;
+			border-left: 1px solid $color_link;
+
+			&:first-child {
+				border-left: none;
+			}
+		}
+	}
+}
