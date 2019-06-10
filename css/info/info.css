@@ -8,7 +8,7 @@
   text-align: center;
   margin-bottom: 30px;
   padding-bottom: 25px;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid #ffffff;
 }
 
 .info div h5 {
@@ -24,7 +24,7 @@
 @media screen and (min-width: 992px) {
   .info div {
     border-bottom: none;
-    border-left: 1px solid white;
+    border-left: 1px solid #ffffff;
   }
   .info div:first-child {
     border-left: none;

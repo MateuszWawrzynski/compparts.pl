@@ -36,13 +36,6 @@ $sidebar_width: 250px;
 	transition-duration: 0.2s;
 	border-bottom: 1px solid $color_link_hover;
 
-	// &::before {
-	// 	content: '>';
-	// 	position: relative;
-	// 	right: -225px;
-	// 	top: 0;
-	// }
-
 	&:hover {
 		background-color: $color_hover;
 	}

@@ -6,14 +6,12 @@ $color_hover: #555e8b;
 $color_link: #ffffff;
 $color_link_hover: #cacaca;
 
-$font_montserrat: 'Montserrat',
-sans-serif;
+$font_montserrat: 'Montserrat', sans-serif;
 
 $sidebar_width: 250px;
 
 
 .about {
-	//height: 500px;
 	padding: 30px 50px 100px 50px;
 	background-color: $color_second;
 	color: $color_link;
@@ -48,6 +46,7 @@ $sidebar_width: 250px;
 
 		i {
 			margin-right: 30px;
+			font-size: 20px;
 		}
 	}
 	.about-contact {

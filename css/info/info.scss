@@ -12,7 +12,6 @@ $sidebar_width: 250px;
 
 
 .info {
-	//height: 300px;
 	padding: 30px 16px;
 	color: $color_link;
 	background-color: $color_main;
@@ -21,7 +20,7 @@ $sidebar_width: 250px;
 		text-align: center;
 		margin-bottom: 30px;
 		padding-bottom: 25px;
-		border-bottom: 1px solid white;
+		border-bottom: 1px solid $color_link;
 
 		h5 {
 			margin-bottom: 35px;
@@ -39,7 +38,7 @@ $sidebar_width: 250px;
 	.info {
 		div {
 			border-bottom: none;
-			border-left: 1px solid white;
+			border-left: 1px solid $color_link;
 
 			&:first-child {
 				border-left: none;
