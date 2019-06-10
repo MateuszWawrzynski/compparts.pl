@@ -43,12 +43,12 @@ a {
 	top: 0;
 	left: 0;
 	transition: 0.5s;
-	border-right: 1px solid #000000;
 	background-color: $color_main;
 	z-index: 100;
 }
 
 .content {
 	margin-left: $sidebar_width;
+	border-left: 1px solid #000000;
 	transition: 0.5s;
 }

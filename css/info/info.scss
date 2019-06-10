@@ -12,6 +12,38 @@ $sidebar_width: 250px;
 
 
 .info {
-	height: 300px;
+	//height: 300px;
+	padding: 30px 16px;
 	color: $color_link;
+	background-color: $color_main;
+
+	div {
+		text-align: center;
+		margin-bottom: 30px;
+		padding-bottom: 25px;
+		border-bottom: 1px solid white;
+
+		h5 {
+			margin-bottom: 35px;
+			font-weight: bold;
+		}
+
+		p {
+			line-height: 10px;
+			font-size: 14px;
+		}
+	}
+}
+
+@media screen and (min-width: 992px) {
+	.info {
+		div {
+			border-bottom: none;
+			border-left: 1px solid white;
+
+			&:first-child {
+				border-left: none;
+			}
+		}
+	}
 }
