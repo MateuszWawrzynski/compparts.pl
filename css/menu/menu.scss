@@ -34,7 +34,7 @@ $sidebar_width: 250px;
 	background-color: $color_main;
 	color: $color_link;
 	transition-duration: 0.2s;
-	border-bottom: 1px solid #ffffff;
+	border-bottom: 1px solid $color_link_hover;
 
 	// &::before {
 	// 	content: '>';

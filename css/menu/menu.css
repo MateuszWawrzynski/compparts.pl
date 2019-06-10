@@ -20,7 +20,7 @@
   background-color: #2b2f42;
   color: #ffffff;
   transition-duration: 0.2s;
-  border-bottom: 1px solid #ffffff;
+  border-bottom: 1px solid #cacaca;
 }
 
 .menu-item:hover {
