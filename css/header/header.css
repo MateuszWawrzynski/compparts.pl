@@ -54,8 +54,13 @@
   .header .fa-user-plus {
     font-size: 16px;
   }
+  .header div, .header form {
+    padding: 5px;
+  }
+  .header form {
+    text-align: right;
+  }
   .header input {
-    width: 37vw;
     height: 25px;
     font-size: 10px;
   }

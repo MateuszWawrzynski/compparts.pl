@@ -55,6 +55,12 @@ $sidebar_width: 250px;
 	}
 }
 
+@media screen and (max-width: 576px) {
+	.about {
+		padding: 30px 30px 100px 30px;
+	}
+}
+
 @media screen and (min-width: 1200px) {
 	.about {
 		.about-text {

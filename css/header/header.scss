@@ -72,8 +72,15 @@ $sidebar_width: 250px;
 			font-size: 16px;
 		}
 
+		div,form {
+			padding: 5px;
+		}
+
+		form {
+			text-align: right;
+		}
+
 		input {
-			width: 37vw;
 			height: 25px;
 			font-size: 10px;
 		}
