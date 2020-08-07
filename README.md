@@ -1,3 +1,7 @@
+Projekt wykonany podczas studiów na przedmiot "Komunikacja człowiek-komputer".
+===
+
+
 Sklep internetowy z częściami komputerowymi
 ===
 compparts.pl
